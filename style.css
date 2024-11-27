@@ -1,81 +1,42 @@
-/* General Styles */
+/* Add a black background to the entire site */
 body {
-  background-color: black;
-  color: white;
+  background-color: black; /* Black background */
+  color: white; /* White text for contrast */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+/* Header adjustments for black background */
 header {
-  background: #222;
+  background: #222; /* Darker shade for header */
   color: white;
   padding: 10px 20px;
 }
 
-.logo {
-  font-size: 24px;
-}
-
-.hamburger {
-  font-size: 24px;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
-.menu {
-  display: none;
-  flex-direction: column;
-  background: #444;
-  position: absolute;
-  top: 50px;
-  right: 20px;
-  padding: 10px;
-  border-radius: 5px;
-}
-
 .menu a {
-  color: white;
-  text-decoration: none;
-  padding: 5px 0;
+  color: white; /* Ensure menu links are visible */
 }
 
 .menu a:hover {
-  text-decoration: underline;
+  color: #f0a500; /* Optional: Highlight color on hover */
 }
 
-main {
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 30px;
-}
-
+/* Profile photo adjustments */
 .profile-photo {
   display: block;
   max-width: 200px;
   border-radius: 50%;
-  margin: 0 auto;
+  margin: 20px auto;
+  border: 3px solid white; /* Add a border for better visibility */
 }
 
-/* Responsive Design */
-@media (min-width: 768px) {
-  .menu {
-    display: flex;
-    flex-direction: row;
-    position: static;
-    background: none;
-    padding: 0;
-  }
-  
-  .menu a {
-    margin: 0 10px;
-  }
-  
-  .hamburger {
-    display: none;
-  }
+/* Section adjustments */
+section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: #f0a500; /* Optional: Add a highlight color to section titles */
 }
