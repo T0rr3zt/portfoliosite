@@ -36,7 +36,31 @@ body {
 
 /* Intro Section */
 #intro {
-  height: 100vh;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#Certifications {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#projects {
   display: flex;
   flex-direction: column;
   justify-content: center;
