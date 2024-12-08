@@ -8,7 +8,7 @@ const renderer = new THREE.WebGLRenderer({ canvas, alpha: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
-const particleCount = 300; 
+const particleCount = 1000; 
 const particles = new THREE.BufferGeometry(); 
 const positions = new Float32Array(particleCount * 3);
 const velocities = new Float32Array (particleCount * 3); 
@@ -57,7 +57,7 @@ function animate () {
     if (positions[i * 3 + 2] > 1 || positions[i * 3 + 2] < -1) positions [i * 3 + 2] = Math.random() * 2 - 1;
   }  
 
-  particles.attributes.position.needUpdate = true; 
+  particles.attributes.position.needsUpdate = true; 
   renderer.render(scene, camera);
 
   requestAnimationFrame(animate);
