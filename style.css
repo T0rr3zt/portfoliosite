@@ -17,6 +17,15 @@ body {
   z-index: -1;
 }
 
+h2, p, a {
+  transition: font-weight 0.3s ease, transform 0.3 ease;
+}
+
+h2:hover, p:hover, a:hover, li:hover {
+  font-weight: bold;
+  transform: scale(1.05);
+}
+
 /* Navbar */
 .navbar {
   display: flex;
