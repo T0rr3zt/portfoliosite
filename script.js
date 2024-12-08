@@ -27,9 +27,10 @@ particles.setAttribute('position', new THREE.BufferAttribute(positions, 3));
 particles.setAttribute('velocity', new THREE.BufferAttribute(velocities, 3)); 
 
 const particleMaterial = new THREE.PointsMaterial({
-  color: 0x64ffda, 
+  color: 0x223344, 
   size: 0.05,
   transparent: true,
+  opasity: 0.15,
 });
 
 
