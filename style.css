@@ -76,7 +76,6 @@ h2:hover, p:hover, a:hover, li:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 #projects {
@@ -88,9 +87,7 @@ h2:hover, p:hover, a:hover, li:hover {
 }
 
 #intro h1 {
-  /* padding-top: 0px; */
   font-size: 3rem;
-  margin-bottom: 20px;
 }
 
 #intro p {
@@ -106,7 +103,7 @@ section {
 
 h2 {
   color: #64ffda;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 /* Footer */
@@ -149,7 +146,7 @@ footer {
 
 #about {
   text-align: center;
-  padding: 40px 20px;
+  /* padding: 40px 20px; */
 
 }
 
@@ -164,6 +161,7 @@ footer {
   object-fit: cover;
 
 }
+
 #trailhead {
   text-align: center;
   padding: 40px 20px;
